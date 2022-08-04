@@ -38,12 +38,12 @@
     }
   },
   "actions": {
-    "upsertContact": {
+    "createContact": {
       "title": "Upsert an object in your target application",
-      "main": "./lib/actions/upsertContact.js",
+      "main": "./lib/actions/createContact.js",
       "metadata": {
-        "in": "./lib/schemas/upsertContact.in.json",
-        "out":"./lib/schemas/upsertContact.out.json"
+        "in": "./lib/schemas/createContact.in.json",
+        "out":"./lib/schemas/createContact.out.json"
       }
     }
   }
